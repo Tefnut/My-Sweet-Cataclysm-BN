@@ -38,5 +38,10 @@
     "name": "GROUP_EGG_CAFFGUM",
     "type": "monstergroup",
     "default": "mon_gum_spider_wolf"
+  },
+  {
+    "name": "GROUP_EGG_NICGUM",
+    "type": "monstergroup",
+    "default": "mon_gum_spider_widow"
   }
 ]

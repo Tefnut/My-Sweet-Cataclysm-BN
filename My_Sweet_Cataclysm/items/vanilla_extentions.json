@@ -102,5 +102,18 @@
     "rot_spawn": "GROUP_EGG_CAFFGUM",
     "rot_spawn_chance": 100,
     "spoils_in": "7 days"
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "nic_gum",
+    "name": { "str_sp": "nicotine gum" },
+    "comestible_type": "FOOD",
+    "description": "Mint flavored sugar-free nicotine chewing gum.  For smokers who desire to quit.  It's oddly warm to the touch…",
+    "symbol": "*",
+    "copy-from": "nic_gum",
+    "rot_spawn": "GROUP_EGG_NICGUM",
+    "rot_spawn_chance": 100,
+    "spoils_in": "7 days"
   }
+  
 ]

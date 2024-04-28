@@ -38,5 +38,10 @@
     "id": "caff_gum_spider",
     "type": "harvest",
     "entries": [ { "drop": "caff_gum", "type": "flesh", "mass_ratio": 0.7 } ]
+  },
+  {
+    "id": "nic_gum_spider",
+    "type": "harvest",
+    "entries": [ { "drop": "nic_gum", "type": "flesh", "mass_ratio": 0.7 } ]
   }
 ]
