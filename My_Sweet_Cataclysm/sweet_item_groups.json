@@ -34,6 +34,7 @@
     "id": "coffee_shop",
     "items": [
       [ "candy3", 100 ],
+	  [ "gummyworm", 100 ],
       [ "cookies", 300 ],
       [ "grahmcrackers", 200 ],
       [ "marshmallow", 100 ],
@@ -50,7 +51,7 @@
   {
     "type": "item_group",
     "id": "coffee_table",
-    "items": [ [ "candy3", 100 ], [ "cookies", 300 ], [ "marshmallow", 100 ], [ "smores", 50 ] ]
+    "items": [ [ "candy3", 100 ], [ "gummyworm", 100 ], [ "cookies", 300 ], [ "marshmallow", 100 ], [ "smores", 50 ] ]
   },
   {
     "type": "item_group",
@@ -62,6 +63,7 @@
     "id": "child_items",
     "items": [
       [ "candy3", 100 ],
+	  [ "gummyworm", 100 ],
       [ "cookies", 300 ],
       [ "grahmcrackers", 200 ],
       [ "marshmallow", 100 ],
@@ -74,6 +76,7 @@
     "id": "livingroom",
     "items": [
       [ "candy3", 50 ],
+	  [ "gummyworm", 50 ],
       [ "cookies", 150 ],
       [ "grahmcrackers", 100 ],
       [ "marshmallow", 50 ],
@@ -84,12 +87,12 @@
   {
     "type": "item_group",
     "id": "bed",
-    "items": [ [ "candy3", 5 ], [ "cookies", 3 ], [ "marshmallow", 2 ], [ "gum", 2 ], [ "smores", 1 ] ]
+    "items": [ [ "candy3", 5 ], [ "gummyworm", 5 ], [ "cookies", 3 ], [ "marshmallow", 2 ], [ "gum", 2 ], [ "smores", 1 ] ]
   },
   {
     "type": "item_group",
     "id": "bedroom",
-    "items": [ [ "candy3", 20 ], [ "cookies", 15 ], [ "marshmallow", 10 ], [ "gum", 10 ], [ "smores", 5 ] ]
+    "items": [ [ "candy3", 20 ], [ "gummyworm", 20 ], [ "cookies", 15 ], [ "marshmallow", 10 ], [ "gum", 10 ], [ "smores", 5 ] ]
   },
   {
     "type": "item_group",
@@ -99,18 +102,19 @@
   {
     "type": "item_group",
     "id": "trash",
-    "items": [ [ "candy3", 5 ], [ "gum", 10 ], [ "caff_gum", 10 ] ]
+    "items": [ [ "candy3", 5 ], [ "gummyworm", 5 ], [ "gum", 10 ], [ "caff_gum", 10 ] ]
   },
   {
     "type": "item_group",
     "id": "ant_food",
-    "items": [ [ "candy3", 50 ], [ "cookies", 150 ], [ "grahmcrackers", 100 ], [ "marshmallow", 50 ], [ "smores", 25 ] ]
+    "items": [ [ "candy3", 50 ], [ "gummyworm", 50 ], [ "cookies", 150 ], [ "grahmcrackers", 100 ], [ "marshmallow", 50 ], [ "smores", 25 ] ]
   },
   {
     "type": "item_group",
     "id": "stash_food",
     "items": [
       [ "candy3", 1 ],
+	  [ "gummyworm", 1 ],
       [ "cookies", 3 ],
       [ "grahmcrackers", 2 ],
       [ "marshmallow", 1 ],

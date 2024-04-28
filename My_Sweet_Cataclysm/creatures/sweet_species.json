@@ -16,6 +16,14 @@
   },
   {
     "type": "SPECIES",
+    "id": "WORM_GUMMY",
+    "name": { "str": "gummy worm" },
+    "description": "a gummy worm",
+    "footsteps": "schlorp.",
+    "fear_triggers": [ "HURT" ]
+  },
+  {
+    "type": "SPECIES",
     "id": "CRACKER",
     "name": { "str": "cracker" },
     "fear_triggers": [ "HURT" ],

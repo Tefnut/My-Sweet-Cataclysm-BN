@@ -15,6 +15,11 @@
     "entries": [ { "drop": "candy3", "type": "flesh", "mass_ratio": 0.7 } ]
   },
   {
+    "id": "gummy_worm",
+    "type": "harvest",
+    "entries": [ { "drop": "gummyworm", "type": "flesh", "mass_ratio": 0.7 } ]
+  },
+  {
     "id": "cracker_boy",
     "type": "harvest",
     "entries": [ { "drop": "grahmcrackers", "type": "flesh", "mass_ratio": 0.7 } ]

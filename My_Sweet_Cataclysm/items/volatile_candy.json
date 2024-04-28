@@ -1,0 +1,24 @@
+[
+  {
+    "type": "COMESTIBLE",
+    "id": "gummyworm",
+    "name": { "str_sp": "gummy worms" },
+    "weight": "46 g",
+    "color": "green",
+    "container": "bag_plastic",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "healthy": -1,
+    "calories": 85,
+    "description": "A handful of colorful fruit-flavored gelatin candies, shaped into worms. They wiggle strangely in your hands.",
+    "price": "180 cent",
+    "price_postapoc": "2 USD",
+    "material": "junk",
+    "volume": "250 ml",
+    "charges": 3,
+    "fun": 3,
+	"rot_spawn": "GROUP_EGG_GUMMYWORM",
+    "rot_spawn_chance": 100,
+    "spoils_in": "15 days"
+  }
+]
