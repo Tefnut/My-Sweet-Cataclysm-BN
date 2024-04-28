@@ -1,5 +1,5 @@
 Differences between this and mainline MSC:
 
-UDP support baked in
-around a dozen new snippets in survivor notes
-Gummy Worms
+1. UDP support baked in
+2. around a dozen new snippets in survivor notes
+3. Gummy Worms
