@@ -1,0 +1,31 @@
+[
+  {
+    "id": "mon_necco",
+    "type": "MONSTER",
+    "name": { "str": "necco" },
+    "description": "A giant necco wafer, happily jaunting around. It has a cat face, and occasionally meows.",
+    "default_faction": "neccos",
+    "bodytype": "quadruped",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "NECCO" ],
+	"volume": "4000 ml",
+    "weight": "2 kg",
+    "hp": 8,
+    "speed": 150,
+    "material": [ "junk", "sugar" ],
+    "symbol": "%",
+    "color": "magenta",
+	"aggression": -99,
+    "morale": 2,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "melee_dice_sides": 2,
+    "melee_cut": 2,
+    "dodge": 8,
+    "vision_night": 20,
+    "special_attacks": [ [ "scratch", 10 ] ],
+    "death_function": [ "BROKEN" ],
+    "placate_triggers": [ "HURT" ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "ANIMAL", "PATH_AVOID_DANGER_1", "WARM", "HIT_AND_RUN" ]
+  }
+]
