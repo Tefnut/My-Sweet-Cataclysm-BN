@@ -26,6 +26,11 @@
     "vision_day": 30,
     "vision_night": 3,
     "harvest": "cracker_boy",
+	"petfood": {
+      "food": [ "CANDYFOOD" ],
+      "feed": "The %s seems to like you!  It bows before you in respect.",
+      "pet": "The %s graciously accepts your affection."
+    },
     "special_attacks": [ [ "scratch", 10 ] ],
     "upgrades": { "half_life": 15, "into": "mon_cracker" },
     "death_function": [ "NORMAL" ],
@@ -90,6 +95,11 @@
     "vision_day": 30,
     "vision_night": 10,
     "harvest": "cookie_beast",
+	"petfood": {
+      "food": [ "CANDYFOOD" ],
+      "feed": "The %s seems to like you!  It scurries around your legs in excitement.",
+      "pet": "The %s graciously accepts your affection."
+    },
     "path_settings": { "max_dist": 10 },
     "anger_triggers": [ "PLAYER_WEAK" ],
     "fear_triggers": [ "PLAYER_CLOSE" ],

@@ -27,8 +27,13 @@
     "path_settings": { "max_dist": 10 },
     "fear_triggers": [ "HURT" ],
     "death_function": [ "NORMAL" ],
+	"petfood": {
+      "food": [ "CANDYFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pet it's squishy little head.",
+      "pet": "The %s graciously accepts your affection."
+    },
     "upgrades": { "half_life": 20, "into": "mon_gummy_bear" },
-	"flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "NO_BREATHE" ]
+	"flags": [ "SEES", "HEARS", "SMELLS", "PATH_AVOID_DANGER_1", "WARM", "NO_BREATHE", "CANPLAY" ]
   },
   
   {

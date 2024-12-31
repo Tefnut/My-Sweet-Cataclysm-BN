@@ -1,0 +1,25 @@
+[
+   {
+    "type": "COMESTIBLE",
+    "id": "sugar_crystal",
+    "name": { "str_sp": "massive sugar crystal" },
+    "weight": "67 g",
+    "color": "white",
+    "container": "box_small",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": -2,
+    "healthy": -2,
+    "calories": 254,
+    "description": "A massive sugar crystal. Incredibly bad for your health, but the younger candy critters youve seem around seem to enjoy them.",
+    "price": "150 cent",
+    "price_postapoc": "5 USD",
+    "material": [ "junk" ],
+    "volume": "250 ml",
+    "charges": 5,
+    "vitamins": [ [ "calcium", 9 ], [ "vitB", 8 ], [ "junk_allergen", 1 ] ],
+	"use_action": [ "PETFOOD" ],
+    "petfood": [ "CANDYFOOD" ],
+    "fun": 2
+  }
+]
