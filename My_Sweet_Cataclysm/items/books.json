@@ -1,0 +1,23 @@
+[
+   {
+    "id": "book_candy_alchemy",
+    "type": "BOOK",
+    "name": { "str": "Candy Alchemist notes", "str_pl": "copies of Candy Alchemist's notes" },
+    "description": "A cookbook of sweets that has been defaced, seemingly by a madman. Between what seem to be your standard candy recipes, there are notes about \"Elemental Sugar\", and \"Candy Life\", as well as use of chili powder and citric acid to prevent sweets from... coming to life? Finally, theres notes on a concentrated crystalline sugar, which the \"Candy Life\" seems to use as food.",
+
+    "weight": "454 g",
+    "volume": "500 ml",
+    "price": "100 USD",
+    "price_postapoc": "10 USD",
+    "material": [ "paper" ],
+    "symbol": "?",
+    "looks_like": "recipe_creepy",
+    "color": "light_gray",
+    "skill": "cooking",
+    "required_level": 3,
+    "max_level": 5,
+    "intelligence": 8,
+    "time": "10 m",
+    "fun": -1
+  }
+]

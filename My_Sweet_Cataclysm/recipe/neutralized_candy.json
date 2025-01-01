@@ -1,0 +1,20 @@
+[
+  {
+    "type": "recipe",
+    "result": "marshmallow_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "marshmallow", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   }
+   
+   
+]

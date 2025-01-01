@@ -1,0 +1,10 @@
+[
+   {
+    "id": "homebooks",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "book_candy_alchemy", "prob": 1 }
+    ]
+  }
+]

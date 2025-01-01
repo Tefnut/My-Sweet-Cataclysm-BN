@@ -1,0 +1,46 @@
+[
+  {
+    "id": "powder_sour",
+    "copy-from": "spice",
+    "type": "COMESTIBLE",
+    "name": { "str_sp": "citric acid powder" },
+    "description": "Citric acid, a powder that makes food sour!",
+    "color": "white"
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "marshmallow_sour",
+    "name": { "str_sp": "sour marshmallows" },
+    "symbol": "%",
+	"color": "yellow",
+	"calories": 168,
+    "description": "A handful of squishy, fluffy, puffy, delicious marshmallows, somewhat messed up by the addition of sour citric acid. The odd warmth you felt before is dulled.",
+    "price": "250 cent",
+    "price_postapoc": "1 USD",
+    "material": [ "junk" ],
+    "volume": "250 ml",
+	"fun": 5,
+    "spoils_in": "60 days",
+    "vitamins": [ [ "junk_allergen", 1 ] ]
+  },
+  
+  {
+    "type": "COMESTIBLE",
+    "id": "marshmallow_spicy",
+    "name": { "str_sp": "spicy marshmallows" },
+    "symbol": "%",
+	"color": "yellow",
+	"calories": 168,
+    "description": "A handful of squishy, fluffy, puffy, delicious marshmallows, somewhat messed up by the addition of hot chili powder. The odd warmth you felt before is dulled.",
+    "price": "250 cent",
+    "price_postapoc": "1 USD",
+    "material": [ "junk" ],
+    "volume": "250 ml",
+	"fun": 7,
+    "spoils_in": "120 days",
+    "vitamins": [ [ "junk_allergen", 1 ] ]
+  }
+  
+  
+]
