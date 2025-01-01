@@ -4,3 +4,4 @@ Differences between this and mainline MSC:
 2. around a dozen new snippets in survivor notes
 3. Gummy Worms
 4. Nicotine Gum Spiders
+5. Craftable "Massive sugar crystals", usable to tame low-stage candy creatures.
