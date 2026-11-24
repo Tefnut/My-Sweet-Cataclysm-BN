@@ -51,6 +51,7 @@
     "symbol": "%",
     "container": "null",
     "copy-from": "candy3",
+	"fun": 10,
     "rot_spawn": "GROUP_EGG_GUMMY",
     "rot_spawn_chance": 100,
     "spoils_in": "15 days"

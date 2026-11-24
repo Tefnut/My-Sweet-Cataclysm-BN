@@ -12,6 +12,8 @@
     "type": "COMESTIBLE",
     "id": "marshmallow_sour",
     "name": { "str_sp": "sour marshmallows" },
+	"copy-from": "marshmallow",
+	"looks_like": "marshmallow",
     "symbol": "%",
 	"color": "yellow",
 	"calories": 168,
@@ -20,27 +22,629 @@
     "price_postapoc": "1 USD",
     "material": [ "junk" ],
     "volume": "250 ml",
-	"fun": 5,
+	"fun": 6,
     "spoils_in": "60 days",
     "vitamins": [ [ "junk_allergen", 1 ] ]
   },
   
+
+  
+  {
+  "type": "COMESTIBLE",
+  "id": "marshmallow_spicy",
+  "name": {
+    "str_sp": "spicy marshmallows"
+  },
+  "weight": "53 g",
+  "color": "red",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "calories": 168,
+  "flags": [
+    "NO_COOKING_BUFF"
+  ],
+  "description": "A handful of squishy, fluffy, puffy, delicious marshmallows, somewhat messed up by the addition of hot chili powder. The odd warmth you felt before is gone.",
+  "price": "250 cent",
+  "price_postapoc": "1 USD",
+  "material": [
+    "junk"
+  ],
+  "volume": "250 ml",
+  "fun": 4,
+  "vitamins": [
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "looks_like": "marshmallow"
+},
+  
+  {
+  "type": "COMESTIBLE",
+  "id": "smores_sour",
+  "name": {
+    "str_sp": "sour s'mores"
+  },
+  "weight": "180 g",
+  "color": "brown",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "calories": 550,
+  "flags": [
+    "NO_COOKING_BUFF"
+  ],
+  "description": "A pair of graham crackers with some chocolate and a marshmallow between them. Someone put sour powder in this, making the flavor, weird. Slight warmth radiates from it, as if it was… alive?",
+  "price": "4 USD",
+  "price_postapoc": "250 cent",
+  "material": [
+    "wheat",
+    "junk"
+  ],
+  "volume": "250 ml",
+  "vitamins": [
+    [
+      "calcium",
+      4
+    ],
+    [
+      "iron",
+      6
+    ],
+    [
+      "wheat_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "fun": 6,
+  "looks_like": "smores",
+  "rot_spawn": "GROUP_EGG_SMORES",
+  "rot_spawn_chance": 100,
+  "spoils_in": "60 days"
+},
+
+{
+  "type": "COMESTIBLE",
+  "id": "smores_spicy",
+  "name": {
+    "str_sp": "spicy s'mores"
+  },
+  "weight": "180 g",
+  "color": "brown",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "calories": 550,
+  "flags": [
+    "NO_COOKING_BUFF"
+  ],
+  "description": "A pair of graham crackers with some chocolate and a marshmallow between them. Someone put chili powder in this, making the flavor, bringing a noticable spicy heat to it.",
+  "price": "4 USD",
+  "price_postapoc": "250 cent",
+  "material": [
+    "wheat",
+    "junk"
+  ],
+  "volume": "250 ml",
+  "vitamins": [
+    [
+      "calcium",
+      4
+    ],
+    [
+      "iron",
+      6
+    ],
+    [
+      "wheat_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "fun": 12,
+  "looks_like": "smores"
+},
+  
+{
+  "type": "COMESTIBLE",
+  "id": "grahmcrackers_sour",
+  "name": "sour graham cracker",
+  "weight": "31 g",
+  "color": "brown",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "quench": -4,
+  "calories": 110,
+  "description": "Dry and sugary, these crackers will leave you thirsty, but go good with some chocolate and marshmallows. Sour citric acid powder has been poured on it by some maniac. They shiver slightly under your touch.  Weird!",
+  "price": "110 cent",
+  "price_postapoc": "3 USD",
+  "material": [
+    "wheat",
+    "junk"
+  ],
+  "volume": "750 ml",
+  "charges": 8,
+  "vitamins": [
+    [
+      "calcium",
+      4
+    ],
+    [
+      "iron",
+      6
+    ],
+    [
+      "wheat_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "fun": 0,
+  "looks_like": "grahmcrackers",
+  "rot_spawn": "GROUP_EGG_CRACKER",
+  "rot_spawn_chance": 100,
+  "spoils_in": "60 days"
+},
+
+{
+  "type": "COMESTIBLE",
+  "id": "grahmcrackers_spicy",
+  "name": "spicy graham cracker",
+  "weight": "31 g",
+  "color": "brown",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "quench": -6,
+  "calories": 110,
+  "description": "Dry and sugary, these crackers will leave you thirsty, but go good with some chocolate and marshmallows. Someone added spicy chili powder in it.",
+  "price": "110 cent",
+  "price_postapoc": "3 USD",
+  "material": [
+    "wheat",
+    "junk"
+  ],
+  "volume": "750 ml",
+  "charges": 8,
+  "vitamins": [
+    [
+      "calcium",
+      4
+    ],
+    [
+      "iron",
+      6
+    ],
+    [
+      "wheat_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "fun": 1,
+  "looks_like": "grahmcrackers"
+},
+
+
+{
+  "type": "COMESTIBLE",
+  "id": "cookies_sour",
+  "name": "sour cookie",
+  
+  "weight": "33 g",
+  "color": "brown",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "quench": -1,
+  "calories": 160,
+  "description": "Sweet and delicious cookies, just like grandma used to bake. Someone sprinkled sour citric acid powder on it. They lightly shiver under your touch.  Weird!",
+  "price": "195 cent",
+  "price_postapoc": "150 cent",
+  "material": [
+    "wheat",
+    "junk"
+  ],
+  "volume": "250 ml",
+  "charges": 4,
+  "stack_size": 20,
+  "vitamins": [
+    [
+      "calcium",
+      2
+    ],
+    [
+      "iron",
+      6
+    ],
+    [
+      "wheat_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "fun": 2,
+  "looks_like": "cookies",
+  "rot_spawn": "GROUP_EGG_COOKIE",
+  "rot_spawn_chance": 100,
+  "spoils_in": "60 days"
+},
+
+{
+  "type": "COMESTIBLE",
+  "id": "cookies_spicy",
+  "name": "spicy cookie",
+  "weight": "33 g",
+  "color": "brown",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "quench": -3,
+  "calories": 160,
+  "description": "Sweet and delicious cookies, just like grandma used to bake. Added chili powder makes it an interesting combination of flavors.",
+  "price": "195 cent",
+  "price_postapoc": "150 cent",
+  "material": [
+    "wheat",
+    "junk"
+  ],
+  "volume": "250 ml",
+  "charges": 4,
+  "stack_size": 20,
+  "vitamins": [
+    [
+      "calcium",
+      2
+    ],
+    [
+      "iron",
+      6
+    ],
+    [
+      "wheat_allergen",
+      1
+    ],
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "fun": 5,
+  "looks_like": "cookies"
+},
+  
+  
+  
   {
     "type": "COMESTIBLE",
-    "id": "marshmallow_spicy",
-    "name": { "str_sp": "spicy marshmallows" },
+    "id": "gummyworm_sour",
+    "name": { "str_sp": "sour gummy worms" },
+    "weight": "46 g",
+    "color": "yellow",
+    "container": "bag_plastic",
+    "comestible_type": "FOOD",
     "symbol": "%",
-	"color": "yellow",
-	"calories": 168,
-    "description": "A handful of squishy, fluffy, puffy, delicious marshmallows, somewhat messed up by the addition of hot chili powder. The odd warmth you felt before is dulled.",
-    "price": "250 cent",
-    "price_postapoc": "1 USD",
-    "material": [ "junk" ],
+    "healthy": -1,
+    "calories": 85,
+    "description": "A handful of colorful fruit-flavored gelatin candies, shaped into worms. The sour flavoring is a popular topping. They wiggle faintly in your hands.",
+    "price": "180 cent",
+    "price_postapoc": "2 USD",
+    "material": "junk",
     "volume": "250 ml",
-	"fun": 7,
-    "spoils_in": "120 days",
-    "vitamins": [ [ "junk_allergen", 1 ] ]
-  }
+    "charges": 3,
+    "fun": 10,
+	"rot_spawn": "GROUP_EGG_GUMMYWORM",
+    "rot_spawn_chance": 100,
+    "spoils_in": "90 days"
+  },
   
+  {
+    "type": "COMESTIBLE",
+    "id": "gummyworm_spicy",
+    "name": { "str_sp": "spicy gummy worms" },
+    "weight": "46 g",
+    "color": "red",
+    "container": "bag_plastic",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "healthy": -1,
+	"quench": -2,
+    "calories": 85,
+    "description": "A handful of colorful fruit-flavored gelatin candies, shaped into worms. Someone, possibly you, put spicy chili powder on these.",
+    "price": "180 cent",
+    "price_postapoc": "2 USD",
+    "material": "junk",
+    "volume": "250 ml",
+    "charges": 3,
+    "fun": 4
+  },
+  
+  {
+  "type": "COMESTIBLE",
+  "id": "candy3_sour",
+  "name": {
+    "str_sp": "sour gummy bears"
+  },
+  "weight": "46 g",
+  "color": "yellow",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "healthy": -1,
+  "calories": 85,
+  "description": "A handful of colorful fruit-flavored chewy candy, sprinkled with sour powder.  They're faintly warm to the touch and you can just barely feel a slow beat coming from them.  How odd…",
+  "price": "180 cent",
+  "price_postapoc": "2 USD",
+  "material": [
+    "junk"
+  ],
+  "volume": "250 ml",
+  "charges": 3,
+  "fun": 10,
+  "vitamins": [
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "looks_like": "candy3",
+  "rot_spawn": "GROUP_EGG_GUMMY",
+  "rot_spawn_chance": 100,
+  "spoils_in": "60 days"
+},
+
+{
+  "type": "COMESTIBLE",
+  "id": "candy3_spicy",
+  "name": {
+    "str_sp": "spicy gummy bears"
+  },
+  "weight": "46 g",
+  "color": "red",
+  "container": "null",
+  "comestible_type": "FOOD",
+  "symbol": "%",
+  "healthy": -1,
+  "quench": -2,
+  "calories": 85,
+  "description": "A handful of colorful fruit-flavored chewy candy, sprinkled with spicy chili powder like some maniac. Still delicious, but the odd combination feels like a missed shot...",
+  "price": "180 cent",
+  "price_postapoc": "2 USD",
+  "material": [
+    "junk"
+  ],
+  "volume": "250 ml",
+  "charges": 3,
+  "fun": 4,
+  "vitamins": [
+    [
+      "junk_allergen",
+      1
+    ]
+  ],
+  "looks_like": "candy3"
+},
+
+{
+  "id": "gum_sour",
+  "type": "COMESTIBLE",
+  "comestible_type": "FOOD",
+  "name": {
+    "str_sp": "sour chewing gum"
+  },
+  "description": "Sugary chewing gum wrapped in bright pink packaging, with a question mark on the label.  It's a mystery what flavor it is, but the label claims there's 20 unique flavors. Someone added sour powder to this batch. It's faintly warm to the touch…",
+  "category": "food",
+  "weight": "3 g",
+  "volume": "250 ml",
+  "price": "1 USD",
+  "price_postapoc": "1 USD",
+  "charges": 10,
+  "stack_size": 100,
+  "symbol": "*",
+  "color": "yellow",
+  "stim": 1,
+  "fun": 2,
+  "flags": [
+    "NO_INGEST"
+  ],
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You chew your chewing gum.",
+    "snippet_category": "chewing_gum_flavor",
+    "snippet_chance": 1
+  },
+  "looks_like": "gum",
+  "rot_spawn": "GROUP_EGG_GUM",
+  "rot_spawn_chance": 100,
+  "spoils_in": "60 days"
+},
+
+{
+  "id": "gum_spicy",
+  "type": "COMESTIBLE",
+  "comestible_type": "FOOD",
+  "name": {
+    "str_sp": "spicy chewing gum"
+  },
+  "description": "Sugary chewing gum wrapped in bright pink packaging, with a question mark on the label.  It's a mystery what flavor it is, but the label claims there's 20 unique flavors. Someone added chili powder to this batch...",
+  "category": "food",
+  "weight": "3 g",
+  "volume": "250 ml",
+  "price": "1 USD",
+  "price_postapoc": "1 USD",
+  "charges": 10,
+  "stack_size": 100,
+  "symbol": "*",
+  "color": "red",
+  "stim": 1,
+  "fun": 1,
+  "quench": -2,
+  "flags": [
+    "NO_INGEST"
+  ],
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You chew your chewing gum.",
+    "snippet_category": "chewing_gum_flavor",
+    "snippet_chance": 1
+  },
+  "looks_like": "gum"
+},
+
+  {
+  "id": "caff_gum_sour",
+  "type": "COMESTIBLE",
+  "comestible_type": "FOOD",
+  "name": {
+    "str_sp": "caffeinated sour chewing gum"
+  },
+  "description": "Chewing gum with added caffeine.  Sugary and bad for your teeth, but it's a nice pick-me-up. Someone added citric acid powder. It's faintly warm to the touch…",
+  "category": "drugs",
+  "weight": "3 g",
+  "volume": "250 ml",
+  "price": "140 cent",
+  "price_postapoc": "50 USD",
+  "charges": 10,
+  "stack_size": 100,
+  "symbol": "*",
+  "color": "white",
+  "stim": 10,
+  "fun": 1,
+  "flags": [
+    "NO_INGEST"
+  ],
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You chew your caffeinated chewing gum."
+  },
+  "looks_like": "caff_gum",
+  "rot_spawn": "GROUP_EGG_CAFFGUM",
+  "rot_spawn_chance": 100,
+  "spoils_in": "60 days"
+},
+
+{
+  "id": "caff_gum_spicy",
+  "type": "COMESTIBLE",
+  "comestible_type": "FOOD",
+  "name": {
+    "str_sp": "caffeinated spicy chewing gum"
+  },
+  "description": "Chewing gum with added caffeine.  Sugary and bad for your teeth, but it's a nice pick-me-up. Someone added chili powder to this batch...",
+  "category": "drugs",
+  "weight": "3 g",
+  "volume": "250 ml",
+  "price": "140 cent",
+  "price_postapoc": "50 USD",
+  "charges": 10,
+  "stack_size": 100,
+  "symbol": "*",
+  "color": "white",
+  "stim": 10,
+  "fun": 1,
+  "quench": -2,
+  "flags": [
+    "NO_INGEST"
+  ],
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You chew your caffeinated chewing gum."
+  },
+  "looks_like": "caff_gum"
+},
+
+{
+  "id": "nic_gum_sour",
+  "type": "COMESTIBLE",
+  "comestible_type": "MED",
+  "name": {
+    "str_sp": "sour nicotine gum"
+  },
+  "description": "Mint flavored sugar-free nicotine chewing gum.  For smokers who desire to quit. Some weirdo added citric acid powder.  It's faintly warm to the touch…",
+  "weight": "3 g",
+  "volume": "25 ml",
+  "price": "10 USD",
+  "price_postapoc": "25 USD",
+  "charges": 10,
+  "symbol": "*",
+  "color": "yellow",
+  "stim": 2,
+  "fun": 1,
+  "addiction_type": "nicotine",
+  "flags": [
+    "NO_INGEST"
+  ],
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You chew your nicotine gum.",
+    "addiction_type_too_much": [
+      [
+        "cig",
+        "nicotine"
+      ]
+    ]
+  },
+    "looks_like": "nic_gum",
+    "rot_spawn": "GROUP_EGG_NICGUM",
+    "rot_spawn_chance": 100,
+    "spoils_in": "60 days"
+},
+
+{
+  "id": "nic_gum_spicy",
+  "type": "COMESTIBLE",
+  "comestible_type": "MED",
+  "name": {
+    "str_sp": "spicy nicotine gum"
+  },
+  "description": "Mint flavored sugar-free nicotine chewing gum.  For smokers who desire to quit. Some weirdo added chili powder. Did you know that the receptors for \"This is too hot, I am burning\" triggered by capscaiscin, and the receptors for \"This is too cold, I am freezing\" triggered by menthol, are not mutually exclusive? This gum tastes of hellfire and mistakes.",
+  "weight": "3 g",
+  "volume": "25 ml",
+  "price": "10 USD",
+  "price_postapoc": "25 USD",
+  "charges": 10,
+  "symbol": "*",
+  "color": "yellow",
+  "stim": 2,
+  "fun": -10,
+  "quench": -2,
+  "addiction_type": "nicotine",
+  "flags": [
+    "NO_INGEST"
+  ],
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You chew your nicotine gum.",
+    "addiction_type_too_much": [
+      [
+        "cig",
+        "nicotine"
+      ]
+    ]
+  },
+    "looks_like": "nic_gum",
+    "rot_spawn": "GROUP_EGG_NICGUM",
+    "rot_spawn_chance": 100,
+    "spoils_in": "60 days"
+}
   
 ]

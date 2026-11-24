@@ -3,7 +3,7 @@
     "type": "recipe",
     "result": "marshmallow_spicy",
     "category": "CC_FOOD",
-    "subcategory": "CSC_FOOD_MEAT",
+    "subcategory": "CSC_FOOD_SNACK",
     "skill_used": "cooking",
     "difficulty": 1,
     "time": "5 m",
@@ -13,6 +13,292 @@
     "components": [
       [ [ "marshmallow", 1 ] ],
       [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "marshmallow_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "marshmallow", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "smores_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "smores", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "smores_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "smores", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "grahmcrackers_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "grahmcrackers", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "grahmcrackers_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "grahmcrackers", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "cookies_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "cookies", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "cookies_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "cookies", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "gummyworm_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "gummyworm", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "gummyworm_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": true,
+    "components": [
+      [ [ "gummyworm", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "candy3_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "candy3", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "candy3_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": true,
+    "components": [
+      [ [ "candy3", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "gum_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "gum", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "gum_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": true,
+    "components": [
+      [ [ "gum", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "caff_gum_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "caff_gum", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "caff_gum_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "caff_gum", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "nic_gum_spicy",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "nic_gum", 1 ] ],
+      [ [ "chilly-p", 1 ] ]
+    ]
+   },
+   
+   {
+    "type": "recipe",
+    "result": "nic_gum_sour",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "skill_used": "cooking",
+    "difficulty": 1,
+    "time": "5 m",
+    "charges": 2,
+    "autolearn": false,
+    "book_learn": [ [ "book_candy_alchemy", 1 ] ],
+    "components": [
+      [ [ "nic_gum", 1 ] ],
+      [ [ "powder_sour", 1 ] ]
     ]
    }
    

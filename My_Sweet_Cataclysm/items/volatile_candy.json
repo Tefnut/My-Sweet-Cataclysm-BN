@@ -16,7 +16,7 @@
     "material": "junk",
     "volume": "250 ml",
     "charges": 3,
-    "fun": 3,
+    "fun": 10,
 	"rot_spawn": "GROUP_EGG_GUMMYWORM",
     "rot_spawn_chance": 100,
     "spoils_in": "15 days"
