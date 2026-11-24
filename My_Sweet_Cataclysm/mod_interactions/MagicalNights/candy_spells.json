@@ -1,0 +1,57 @@
+[
+   {
+    "id": "chocolate_encasement",
+    "type": "SPELL",
+    "name": { "str": "Chocolate Encasement" },
+    "description": "This spell encases a target in magical chocolate, slowing them down.",
+    "valid_targets": [ "hostile" ],
+    "scale_int": true,
+    "flags": [ "LOUD", "SOMATIC", "NO_EXPLOSION_VFX", "NO_HANDS" ],
+    "effect": "target_attack",
+    "effect_str": "chocolate_slowed",
+    "spell_class": "NONE",
+    "energy_source": "MANA",
+    "min_range": 1,
+    "range_increment": 1,
+    "max_range": 15,
+    "difficulty": 4,
+    "base_casting_time": 200,
+    "base_energy_cost": 750,
+    "final_energy_cost": 600,
+    "energy_increment": -10,
+    "max_level": 15,
+    "min_duration": 96000,
+    "max_duration": 186000,
+    "duration_increment": 6000
+  },
+  
+  {
+    "type": "effect_type",
+    "id": "chocolate_slowed",
+    "name": [ "Chocolate Coated" ],
+    "desc": [ "You are coated in a magical chocolate! It rapidly disintergrates when it falls off your person, but is making it very hard to move!" ],
+    "apply_message": "You are coated in chocolate!",
+    "remove_message": "The chocolate falls from your person.",
+    "rating": "bad",
+    "base_mods": { "dex_mod": [ -3 ], "speed_mod": [ -50 ] }
+  },
+  
+  {
+    "type": "GENERIC",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_chocolate_encasement",
+    "//": "Classless spell",
+    "name": { "str": "Scroll of Chocolate Encasement", "str_pl": "Scrolls of Chocolate Encasement" },
+    "description": "This spell encases a target in chocolate, slowing them down.",
+    "use_action": { "type": "learn_spell", "spells": [ "chocolate_encasement" ] }
+  },
+  
+  {
+    "id": "spell_scroll_tier_2",
+    "type": "item_group",
+    "items": [
+      [ "spell_scroll_chocolate_encasement", 5 ]
+    ]
+  }
+  
+]

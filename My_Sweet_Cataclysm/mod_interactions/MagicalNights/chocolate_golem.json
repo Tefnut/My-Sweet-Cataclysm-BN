@@ -1,0 +1,79 @@
+[
+  {
+    "id": "mon_chocolategolem",
+    "type": "MONSTER",
+    "name": { "str": "chocolate golem" },
+	"looks_like": "mon_claygolem",
+    "description": "A golem made of drippy solid chocolate. Whenever a drop of chocolate leaves the golem's body, it rapidly hardens.",
+    "default_faction": "robot",
+    "bodytype": "human",
+    "species": [ "ROBOT" ],
+    "volume": "150 L",
+    "weight": "70 kg",
+    "hp": 150,
+    "speed": 90,
+    "material": [ "plastic" ],
+    "symbol": "G",
+    "color": "brown",
+    "aggression": 30,
+    "morale": 100,
+    "armor_bash": 12,
+    "armor_cut": 8,
+    "armor_bullet": 7,
+    "melee_skill": 5,
+    "melee_dice": 4,
+    "melee_dice_sides": 6,
+    "melee_cut": 3,
+    "vision_day": 30,
+    "vision_night": 30,
+	
+	"special_attacks": [ { "type": "spell", "spell_data": { "id": "chocolate_encasement", "min_level": 10 }, "cooldown": 25 } ],
+	
+    "anger_triggers": [ "PLAYER_CLOSE", "HURT" ],
+    "death_function": [ "BROKEN" ],
+    "regenerates": 25,
+    "flags": [ "SEES", "HEARS", "NO_BREATHE", "PSIPROOF", "BIOPROOF", "LOUDMOVES" ]
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "broken_chocolategolem",
+    "symbol": "x",
+    "color": "light_gray",
+    "name": "broken chocolate golem",
+    "category": "other",
+    "description": "A broken plastic golem, like a giant action figure chewed up by an equally giant puppy.  You could smash it up into recycled chocolate bits.",
+    "price": "1 USD",
+    "material": [ "plastic" ],
+    "weight": "70 kg",
+    "volume": "150 L",
+    "bashing": 4,
+    "cutting": 4,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID", "NO_REPAIR", "NO_SALVAGE" ]
+  },
+  
+  {
+    "result": "broken_chocolategolem",
+    "type": "uncraft",
+    "skill_used": "spellcraft",
+    "difficulty": 3,
+    "time": "5 h",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "chocolate", 1400 ] ] ]
+  },
+  
+  {
+    "type": "monstergroup",
+    "name": "GROUP_TOWER_GOLEM",
+    "default": "mon_plasticgolem",
+    "//": "Cheap golems used to defend the average wizard's tower.",
+    "monsters": [
+      { "monster": "mon_chocolategolem", "freq": 1, "cost_multiplier": 1 }
+    ]
+  }
+  
+  
+  
+  
+]
